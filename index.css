@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #CDE8E5;
+}
+.top{
+    text-align: center;
+    margin-top: 20px;
+}
+.main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    gap: 1.1vmin;
+    flex-wrap: wrap;
+}
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: white;
+}
+#reset{
+    width: 140px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    margin-left: 710px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hide{
+    display: none;
+}
+
+#newgame{
+    width: 140px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+#msg{
+    font-size: 25px;
+}
